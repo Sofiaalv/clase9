@@ -1,5 +1,5 @@
 let botonCompra = document.querySelectorAll(".botonCompra");
 
-console.log(botonCompra);
+console.log( botonCompra );
 
 
