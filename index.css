@@ -1,0 +1,43 @@
+.centrado {
+  text-align: center;
+  padding: 2em;
+}
+
+.product {
+  padding: 0.625em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  margin-bottom: 5px;
+}
+
+.product__zoom {
+  padding: 3.125em;
+  -webkit-transition: -webkit-transform .2s;
+  transition: -webkit-transform .2s;
+  transition: transform .2s;
+  transition: transform .2s, -webkit-transform .2s;
+  width: 18.75em;
+  height: 30em;
+  margin: 0 auto;
+}
+
+.product__zoom:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+#carrito {
+  width: 30%;
+  background-color: #868585;
+  height: 100vh;
+}
+/*# sourceMappingURL=index.css.map */
